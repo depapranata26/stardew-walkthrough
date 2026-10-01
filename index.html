@@ -62,7 +62,7 @@ a{color:var(--acc)}
 <div id="onboard" style="display:none"></div>
 <footer>Fan guide. Stardew Valley © ConcernedApe.</footer>
 <script>
-const TABS=[["home","🏠","Mulai"],["days","📅","Hari"],["season","🌸","Musim"],["skill","🎒","Skill"],["cal","📆","Kalender"],["goal","🏁","Goals"]];
+const TABS=[["home","🏠","Mulai"],["days","📅","Hari"],["season","🌸","Musim"],["skill","🎒","Skill"],["cal","📆","Kalender"],["goal","🏁","Goals"],["y2","🗓️","Year 2"]];
 const GOALS={
  money:{e:"💰",n:"Jadi Sultan",d:"Fokus uang & artisan goods. Kaya secepat mungkin."},
  cc:{e:"🏛️",n:"Community Center",d:"Selesaikan semua bundle di Year 1. Target: Greenhouse!"},
@@ -99,11 +99,12 @@ function renderDays(){
 function renderSeason(){return G.seasons.map(s=>`<div class="card"><h2>${s.name}</h2><p style="color:var(--mut)">${md(s.intro)}</p>${s.points.map(p=>`<h3>${p.h}</h3><ul>${p.items.map(i=>`<li>${md(i)}</li>`).join("")}</ul>`).join("")}</div>`).join("")}
 function renderSkill(){return G.skills.map(s=>`<div class="card"><h2>${s.name}</h2><p>${md(s.desc)}</p><ul>${s.tips.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div>`).join("")}
 function renderCal(){return G.calendar.map(c=>`<div class="card"><h2>${c.season}</h2><div class="cal-grid">${c.days.map(d=>`<div class="cal-cell"><b>${d.d}</b>${d.e?`<span class="${d.f?"fest":""}">${d.e}</span>`:""}${d.b?`<br>🎂 ${d.b}`:""}</div>`).join("")}</div></div>`).join("")}
-function renderGoalTab(){return goalBar()+`<div class="card"><h2>🎯 Target Akhir Tahun 1</h2><ul>${G.goals.map(g=>`<li>${md(g)}</li>`).join("")}</ul></div>`+(G.goalpaths?G.goalpaths.map(p=>`<div class="card"><h2>${p.e} Jalur: ${p.name}</h2><ul>${p.steps.map(s=>`<li>${md(s)}</li>`).join("")}</ul></div>`).join(""):"")+(G.marriage?`<div class="card"><h2>💕 Panduan Nikah</h2><ul>${G.marriage.map(m=>`<li>${md(m)}</li>`).join("")}</ul></div>`:"")+`<div class="card"><h2>🏛️ Community Center vs Joja</h2><p>${md(G.cc)}</p></div>`+(G.year2?`<div class="card"><h2>📅 Awal Year 2</h2><p>${md(G.year2)}</p></div>`:"")}
+function renderY2(){return `<div class="card"><h2>🗓️ Year 2 — Mode Bebas</h2><p style="color:var(--mut)">Tidak ada lagi deadline harian. Year 2 = kejar Ginger Island, Golden Walnut, Mastery, dan persiapan evaluasi Kakek di Spring Year 3.</p></div>`+G.year2plans.map(s=>`<div class="card"><h2>${s.season}</h2><p style="color:var(--mut)">${md(s.intro)}</p><ul>${s.goals.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div>`).join("")+`<div class="card"><h2>🏝️ Cara Buka Ginger Island</h2><ul>${G.ginger.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div><div class="card"><h2>👴 Evaluasi Kakek — Sistem 21 Poin</h2><ul>${G.grandpa.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div>`}
+function renderGoalTab(){return goalBar()+`<div class="card"><h2>🎯 Target Akhir Tahun 1</h2><ul>${G.goals.map(g=>`<li>${md(g)}</li>`).join("")}</ul></div>`+(G.goalpaths?G.goalpaths.map(p=>`<div class="card"><h2>${p.e} Jalur: ${p.name}</h2><ul>${p.steps.map(s=>`<li>${md(s)}</li>`).join("")}</ul></div>`).join(""):"")+(G.marriage?`<div class="card"><h2>💕 Panduan Nikah</h2><ul>${G.marriage.map(m=>`<li>${md(m)}</li>`).join("")}</ul></div>`:"")+`<div class="card"><h2>🏛️ Community Center vs Joja</h2><p>${md(G.cc)}</p></div>`+`<div class="card"><h2>📅 Year 2</h2><p style="color:var(--mut)">Panduan lengkap Year 2 — Ginger Island, Golden Walnut, & persiapan evaluasi Kakek — pindah ke tab sendiri.</p><button class="fbtn" onclick="cur='y2';render()">🗓️ Buka Panduan Year 2</button></div>`}
 function render(){const a=document.getElementById("app");
 a.innerHTML=cur==="home"?goalBar()+`<div class="card"><h2>🌱 Tentang Panduan Ini</h2>${G.about.map(p=>`<p>${md(p)}</p>`).join("")}</div><div class="card"><h2>🎯 Pilih Tujuanmu</h2><p style="color:var(--mut);font-size:13px">Langkah tiap hari disorot sesuai tujuan yang kamu pilih.</p>${Object.keys(GOALS).map(k=>`<button class="gcard" onclick="setGoal('${k}');document.getElementById('onboard').style.display='none';render()"><span class="ge">${GOALS[k].e}</span><span><b>${GOALS[k].n}</b><span>${GOALS[k].d}</span></span></button>`).join("")}</div><div class="card"><h2>📱 Tips Android</h2><ul>${G.android.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div><div class="card"><h2>⚡ 10 Tips Kilat Pemula</h2><ul>${G.quick.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div>`
 :cur==="days"?renderDays()
-:cur==="season"?renderSeason():cur==="skill"?renderSkill():cur==="cal"?renderCal():renderGoalTab();
+:cur==="season"?renderSeason():cur==="skill"?renderSkill():cur==="cal"?renderCal():cur==="y2"?renderY2():renderGoalTab();
 document.querySelectorAll("#nav button").forEach(b=>b.classList.toggle("on",b.dataset.t===cur));window.scrollTo(0,0)}
 function showOnboard(force){
  const ob=document.getElementById("onboard");

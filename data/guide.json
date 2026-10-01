@@ -5125,5 +5125,75 @@
    ]
   }
  ],
- "year2": "Year 2 dibuka dengan kembalinya **Kent** (ayah Sam & Vincent). Target besar: buka **Ginger Island** (Community Center selesai + perahu Willy: 200 hardwood + 5 iridium bar + 5 battery pack, tiket 1.000g) \u2192 kejar **100 Golden Walnuts** untuk Qi's Walnut Room. Dorong 5 skill ke level 10 untuk **Mastery system (1.6)**. Puncaknya: **evaluasi Kakek Spring 1 Year 3** \u2014 21 poin, butuh 12+ (4 lilin) \u2192 **Statue of Perfection** (2\u20138 iridium/hari). Kabar baik: evaluasi **bisa diulang kapan saja dengan Diamond**."
+ "year2": "Year 2 dibuka dengan kembalinya **Kent** (ayah Sam & Vincent). Target besar: buka **Ginger Island** (Community Center selesai + perahu Willy: 200 hardwood + 5 iridium bar + 5 battery pack, tiket 1.000g) \u2192 kejar **100 Golden Walnuts** untuk Qi's Walnut Room. Dorong 5 skill ke level 10 untuk **Mastery system (1.6)**. Puncaknya: **evaluasi Kakek Spring 1 Year 3** \u2014 21 poin, butuh 12+ (4 lilin) \u2192 **Statue of Perfection** (2\u20138 iridium/hari). Kabar baik: evaluasi **bisa diulang kapan saja dengan Diamond**.",
+ "year2plans": [
+  {
+   "season": "\ud83c\udf37 Spring Year 2",
+   "intro": "Kent pulang & misi besar: perbaiki perahu Willy.",
+   "goals": [
+    "\ud83c\udf96\ufe0f **Kent pulang** (ayah Sam & Vincent, prajurit) \u2014 sapa dia, ada cutscene & hadiah.",
+    "\ud83d\udea4 **Perbaiki perahu Willy**: **200 Hardwood + 5 Iridium Bar + 5 Battery Pack** (ruangan belakang tokonya, setelah CC selesai).",
+    "\ud83e\ude93 Hardwood harian: **Secret Woods** (~12/hari) + rain totem tidak perlu \u2014 konsisten tiap hari.",
+    "\u26a1 Battery Pack: pasang **Lightning Rod** banyak-banyak sebelum badai Summer.",
+    "\ud83c\udfed Iridium: Skull Cavern / Statue of Perfection (kalau 4 lilin).",
+    "\ud83c\udf31 Greenhouse: penuh **Ancient Fruit** + sprinkler + deretan **Keg** \u2014 mesin uang pasif.",
+    "\ud83d\udcc8 Kejar skill yang belum level 10 (Mastery butuh **semua skill level 10**)."
+   ]
+  },
+  {
+   "season": "\u2600\ufe0f Summer Year 2",
+   "intro": "Ginger Island terbuka \u2014 farm tanpa musim!",
+   "goals": [
+    "\ud83c\udfdd\ufe0f **Ginger Island**: tiket **1.000g**/perjalanan. Tanaman **bebas musim** seperti Greenhouse!",
+    "\ud83c\udf4d Tanam **Pineapple, Taro, Mango/Banana tree** \u2014 bibit dari Island Trader & eksplorasi.",
+    "\ud83c\udf0b **Volcano Dungeon** (10 lantai): Dragon Tooth, Cinder Shard, senjata baru.",
+    "\ud83e\udd5c Kumpulkan **Golden Walnut** (total 130) \u2014 mata uang burung beo untuk buka area & fitur.",
+    "\ud83c\udfa3 Festival berulang (Luau, Trout Derby, Moonlight Jellies) \u2014 Stardrop cuma sekali, santai saja.",
+    "\u26cf\ufe0f Skull Cavern: farming iridium untuk Crystalarium & upgrade."
+   ]
+  },
+  {
+   "season": "\ud83c\udf42 Fall Year 2",
+   "intro": "Kejar 100 Walnut & misi Qi.",
+   "goals": [
+    "\ud83e\udd5c Target **100 Golden Walnut** \u2192 **Qi's Walnut Room** terbuka (misi endgame + hadiah unik).",
+    "\ud83d\udcdc **Qi Quests**: Qi's Crop, Let's Play A Game, Four Prismatic Shards, dll \u2014 hadiah Qi Gem.",
+    "\ud83c\udfa1 Stardew Fair & Spirit's Eve berulang \u2014 kejar token yang kurang.",
+    "\ud83d\udcb0 Butuh uang cepat? **Cranberry/Pumpkin massal** masih jadi raja Fall.",
+    "\ud83d\udc04 Sempurnakan kandang: auto-grabber, auto-petter (dari Joja/Skull Cavern)."
+   ]
+  },
+  {
+   "season": "\u2744\ufe0f Winter Year 2",
+   "intro": "Persiapan final: evaluasi Kakek Spring 1 Year 3!",
+   "goals": [
+    "\ud83d\udc74 **Fokus utama: evaluasi Kakek Spring 1 Year 3** \u2014 butuh **12+ poin** dari 21 untuk 4 lilin.",
+    "\ud83d\udcb0 Poin termudah: **total penghasilan 1.000.000g = 7 poin** (50rb/100rb/200rb/300rb/500rb/1jt).",
+    "\ud83c\udf93 **Semua skill level 10** (total 50 level) = 2 poin + buka **Mastery Cave** (Cindersap Forest).",
+    "\ud83d\udc95 **10 warga di 8 hearts** = 2 poin; nikah + upgrade rumah (kitchen & nursery) = 1 poin.",
+    "\ud83c\udfdb\ufe0f **Community Center selesai + hadiri ceremony** = 3 poin. **Skull Key** = 1 poin.",
+    "\u2728 **Tidak dapat 4 lilin? Santai \u2014 taruh Diamond di shrine kapan saja untuk evaluasi ulang!**"
+   ]
+  }
+ ],
+ "ginger": [
+  "Syarat: **Community Center selesai** (atau Joja) \u2192 Willy kirim surat keesokan harinya.",
+  "Masuk ke **ruangan belakang toko Willy** \u2014 ada perahu rusak.",
+  "Perbaiki dengan: **200 Hardwood + 5 Iridium Bar + 5 Battery Pack** (cutscene malam: Robin & Willy betulkan).",
+  "**Tiket 1.000g** per perjalanan (pulang gratis). Festival day bisa diturunkan di Bus Stop.",
+  "Di pulau: **farm bebas musim**, Volcano Dungeon, memancing spot baru, dan **Golden Walnut**.",
+  "Bayar burung beo dengan Golden Walnut untuk buka area (10 Walnut buka barat, dst).",
+  "**100 Golden Walnut \u2192 Qi's Walnut Room** (misi spesial). Total ada 130 Walnut."
+ ],
+ "grandpa": [
+  "Evaluasi otomatis: **Spring 1 Year 3** di shrine kakek (pojok barat laut farm).",
+  "Sistem **21 poin**, butuh **12+** untuk **4 lilin**.",
+  "\ud83d\udcb0 Penghasilan total: 50rb/100rb/200rb/300rb/500rb (1 poin tiap tingkat), **1jt = 7 poin**.",
+  "\ud83c\udf93 Skill: total 30 level (1 poin), total 50 level / semua level 10 (1 poin).",
+  "\ud83c\udfc6 Achievement: museum lengkap, Master Angler, Full Shipment (1 poin tiap satu).",
+  "\ud83d\udc95 Friendship: nikah + 2 upgrade rumah (1), 5 warga 8 hearts (1), 10 warga 8 hearts (1), hewan max (1).",
+  "\ud83c\udfdb\ufe0f Community Center selesai (1) + hadiri ceremony (2). \ud83d\udd11 Skull Key (1) + Rusty Key (1).",
+  "Hadiah 4 lilin: **Statue of Perfection** \u2014 **2\u20138 iridium ore per hari**!",
+  "Kurang poin? **Taruh Diamond di shrine kapan saja \u2192 evaluasi ulang.**"
+ ]
 }
