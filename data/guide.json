@@ -642,7 +642,7 @@
      "items": [
       "**Blueberry** (80g, 13 hari, panen tiap 4 hari \u00d7 3 buah) \u2014 tanam sebanyak-banyaknya.",
       "**Melon** (80g, 12 hari) \u2014 untuk bundle + hadiah (Penny loves).",
-      "**Hot Pepper** (40g, 10 hari, panen ulang tiap 3 hari) \u2014 Shane loves.",
+      "**Hot Pepper** (40g, 5 hari, panen ulang tiap 3 hari) \u2014 Shane loves.",
       "Hops (60g, 11 hari, panen TIAP hari \u2192 Keg jadi Pale Ale) untuk jalur artisan."
      ]
     },
@@ -1040,5 +1040,4090 @@
  "meta": {
   "sources": "Stardew Valley Wiki \u2022 Fandom \u2022 Eurogamer \u2022 GameSpot \u2022 PC Gamer \u2022 Steam guides \u2022 Reddit",
   "updated": "2026-10-01"
- }
+ },
+ "dayplans": [
+  {
+   "season": "\ud83c\udf37 Spring",
+   "intro": "Fondasi Year 1. Ikuti urutan ini \u2014 Spring menentukan sisa permainanmu.",
+   "days": [
+    {
+     "n": 1,
+     "title": "Tanam Pertama",
+     "goal": "Tanam parsnip + buat chest + forage.",
+     "steps": [
+      {
+       "text": "Tanam **15 Parsnip** bawaan Lewis, siram tiap hari (4 hari \u2192 panen Hari 5).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "Tebang pohon \u2192 kumpulkan **50 wood \u2192 buat 1 Chest**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "Forage di Cindersap Forest: **Spring Onion** (respawn tiap hari, 50g), Daffodil, Dandelion, Leek.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "Sisakan **1 tiap jenis forage** untuk Spring Foraging Bundle.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "Tidur sebelum jam 12 malam \u2014 energy pulih penuh.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 2,
+     "title": "Pancing Gratis!",
+     "goal": "Ambil Bamboo Pole + mancing seharian.",
+     "steps": [
+      {
+       "text": "Cek mailbox \u2192 surat **Willy** \u2192 ke Beach \u2192 **Bamboo Pole GRATIS**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "**Mancing seharian.** Sumber uang tercepat minggu pertama.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Opsional: **Large Pack (2.000g)** di Pierre \u2192 inventory 12 \u2192 24 slot.",
+       "tags": [
+        [
+         "time",
+         "2.000g"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 3,
+     "title": "Pierre Tutup!",
+     "goal": "Forage + sapa warga.",
+     "steps": [
+      {
+       "text": "**Pierre TUTUP tiap Rabu** (JojaMart tetap buka tapi benih lebih mahal).",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "**Sapa semua warga** (+20 friendship/hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Kumpulkan wood: target **300 wood** untuk jembatan pantai.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 4,
+     "title": "Kumpulkan Modal",
+     "goal": "Target 2.000g+ untuk backpack.",
+     "steps": [
+      {
+       "text": "Mancing pagi, forage sore.",
+       "tags": [],
+       "g": []
+      },
+      {
+       "text": "Kantongi **2.000g+** \u2192 beli Large Pack.",
+       "tags": [
+        [
+         "time",
+         "2.000g"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 5,
+     "title": "PANEN + MINES TERBUKA",
+     "goal": "Hari tersibuk! Panen, mines, Community Center.",
+     "steps": [
+      {
+       "text": "**PANEN 15 parsnip.**",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Sisakan **1 parsnip** (bundle) + usahakan **5 GOLD** (Basic Fertilizer SEBELUM tanam).",
+       "tags": [
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "**MINES TERBUKA!** Target lantai 5\u201310, kumpulkan **copper ore**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Bus Stop \u2192 cutscene **\"Rat Problem\"** \u2192 temui **Wizard** \u2192 **Community Center terbuka**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "Belanja: **Potato** (50g) + **3\u20135 Green Bean** (60g, untuk bundle).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "Clint datang besok pagi: blueprint **Furnace** (20 copper ore + 25 stone).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 6,
+     "title": "Tanam Putaran 2",
+     "goal": "Potato + green bean + copper.",
+     "steps": [
+      {
+       "text": "Tanam potato + green bean. Siram.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines: kumpulkan copper (target 25+ ore).",
+       "tags": [],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Prioritas upgrade: **Copper Pickaxe** (2.000g + 5 copper bar, 2 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 7,
+     "title": "Traveling Cart",
+     "goal": "Mines / forage + cek pedagang keliling.",
+     "steps": [
+      {
+       "text": "**Traveling Cart** (Jumat & Minggu) \u2014 cek item langka untuk bundle.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "Lanjut mines atau forage.",
+       "tags": [],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 8,
+     "title": "Push Mines",
+     "goal": "Target lantai 20 \u2192 40.",
+     "steps": [
+      {
+       "text": "Mines: **lantai 20** (Steel Smallsword) \u2192 **lantai 40** (Slingshot, zona iron).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Buat **Scarecrow** (50 wood + 1 coal + 20 fiber) \u2014 **WAJIB kalau tanaman >15**.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "**Hari 11/12: PANEN potato** \u2192 tanam ulang atau **Kale** (70g, 6 hari).",
+       "tags": [
+        [
+         "time",
+         "H11/12"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 9,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 10,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 11,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 12,
+     "title": "Kumpulkan Uang Strawberry",
+     "goal": "Target 2.000\u20134.000g+.",
+     "steps": [
+      {
+       "text": "Kumpulkan uang sebanyak mungkin \u2014 mancing, jual panen, forage.",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "time",
+         "2\u20134rb g"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Jangan beli benih Spring lagi \u2014 semua untuk strawberry besok.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 13,
+     "title": "\ud83e\udd5a EGG FESTIVAL",
+     "goal": "BELI strawberry + langsung tanam.",
+     "steps": [
+      {
+       "text": "Masuk Town Square **9am\u20132pm**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "**BELI Strawberry Seeds (100g) SEBANYAK MUNGKIN** \u2014 satu-satunya sumber tahun ini.",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Egg Hunt:** 9 telur (kalahkan Abigail) \u2192 **Straw Hat**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      },
+      {
+       "text": "Pulang \u2192 **langsung tanam hari itu juga** (panen H21 & H25).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 14,
+     "title": "\ud83c\udf82 Haley",
+     "goal": "Kasih Daffodil.",
+     "steps": [
+      {
+       "text": "Ultah **Haley** \u2014 kasih **Daffodil**. Ultah = hadiah 8x lipat!",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 15,
+     "title": "Salmonberry + Deadline Cauliflower",
+     "goal": "Petik tiap hari. Tanam cauliflower \u2264 H16.",
+     "steps": [
+      {
+       "text": "**Salmonberry Season (15\u201328):** petik di semak tiap hari = energi gratis.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "**DEADLINE: tanam CAULIFLOWER \u2264 HARI 16** (12 hari \u2192 panen H28; untuk bundle).",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "DEADLINE"
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "Desert Festival (15\u201317) \u2014 bus gratis; opsional, fokus ladang.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 16,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 17,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 18,
+     "title": "\ud83c\udf82 Pam",
+     "goal": "Pierre tutup.",
+     "steps": [
+      {
+       "text": "Ultah **Pam**. **Pierre TUTUP** (Rabu).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 19,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 20,
+     "title": "\ud83c\udf82 Shane",
+     "goal": "Beer/Pizza dari Saloon = loved!",
+     "steps": [
+      {
+       "text": "Ultah **Shane** \u2014 **Beer (400g) / Pizza (600g)** dari Saloon = loved \u2192 **+640 poin (~2,5 hati)**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 21,
+     "title": "Panen Strawberry!",
+     "goal": "Panen pertama.",
+     "steps": [
+      {
+       "text": "**PANEN strawberry pertama.** Sisakan beberapa \u2014 **Maru loves strawberry**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 22,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 23,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Mancing / forage / mines \u2014 putar sesuai kebutuhan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "**Sapa warga** yang ditemui (+20 friendship).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Cek **Traveling Cart** kalau hari Jumat/Minggu.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 24,
+     "title": "\ud83c\udf38 FLOWER DANCE",
+     "goal": "BELI item toko SEBELUM dansa!",
+     "steps": [
+      {
+       "text": "**Beli SEBELUM dansa:** **Tub o' Flowers Recipe (1.000g)** \u2014 wajib untuk perfection; **Rarecrow #5 (2.500g)**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "cc",
+        "chill"
+       ]
+      },
+      {
+       "text": "Dansa butuh **4 hearts** \u2014 kemungkinan belum tercapai; nonton saja.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 25,
+     "title": "Panen Strawberry Terakhir",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Panen strawberry kedua (terakhir).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 26,
+     "title": "\ud83c\udf82 Pierre",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Pierre**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 27,
+     "title": "\ud83c\udf82 Emily",
+     "goal": "Amethyst dari mines.",
+     "steps": [
+      {
+       "text": "Ultah **Emily** \u2014 **Amethyst** (dari mines) = loved.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 28,
+     "title": "Tutup Spring",
+     "goal": "Panen terakhir + belanja Summer.",
+     "steps": [
+      {
+       "text": "**Panen cauliflower terakhir.**",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "**Semua tanaman Spring MATI saat ganti musim!**",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "Beli benih **SUMMER**: **Blueberry** + **Melon** + **Hot Pepper** + **Tomato**. Tanam Summer Day 1.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    }
+   ]
+  },
+  {
+   "season": "\u2600\ufe0f Summer",
+   "intro": "Musim uang! Blueberry & melon jadi mesin uang. Jangan lewatkan Luau & Trout Derby.",
+   "days": [
+    {
+     "n": 1,
+     "title": "\ud83c\udf31 Hari Tanam Utama",
+     "goal": "Tanam semua sekaligus.",
+     "steps": [
+      {
+       "text": "Tanam **Blueberry + Melon + Tomato + Hops + Hot Pepper** sekaligus.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Pasang **Basic Fertilizer SEBELUM tanam** untuk calon melon GOLD (Quality Bundle).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "Hot Pepper: **5 hari** tumbuh, panen ulang tiap 3 hari \u2014 mesin uang kecil.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 2,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 3,
+     "title": "Pierre Tutup",
+     "goal": "Belanja H-1 lain kali.",
+     "steps": [
+      {
+       "text": "**Pierre TUTUP** tiap Rabu. Rencanakan belanja bibit.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 4,
+     "title": "\ud83c\udf82 Jas",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Jas**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 5,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 6,
+     "title": "Panen Hot Pepper",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Panen **Hot Pepper pertama** (tanam S1).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 7,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 8,
+     "title": "\ud83c\udf82 Gus",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Gus** \u2014 masakan ikan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 9,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 10,
+     "title": "\ud83c\udf82 Maru",
+     "goal": "Pierre tutup juga.",
+     "steps": [
+      {
+       "text": "Ultah **Maru** \u2014 **Cauliflower/Strawberry** dari kebunmu! **Pierre TUTUP**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 11,
+     "title": "\ud83c\udf0a LUAU",
+     "goal": "Potluck: bawa item GOLD/IRIDIUM!",
+     "steps": [
+      {
+       "text": "Pantai **9am\u20132pm**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc",
+        "love",
+        "chill"
+       ]
+      },
+      {
+       "text": "Masukkan item **GOLD/IRIDIUM** ke potluck \u2192 **+120 friendship SEMUA villagers**. Item jelek = MINUS!",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "love",
+        "cc"
+       ]
+      },
+      {
+       "text": "Opsi Y1: Melon gold, Large Milk gold, Sturgeon/Catfish gold (saat hujan).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 12,
+     "title": "Panen Hops & Tomato",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Panen **Hops & Tomato pertama** (tanam S1).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 13,
+     "title": "\ud83c\udf82 Alex + Panen Melon",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Alex**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Panen **Melon pertama** \u2192 tanam ulang gelombang 2 (panen S25).",
+       "tags": [],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 14,
+     "title": "\ud83d\udcb0 Gajian Blueberry!",
+     "goal": "Panen pertama + beli Deluxe Pack.",
+     "steps": [
+      {
+       "text": "Panen **BLUEBERRY pertama** (3 buah \u00d7 50g per tanaman) = gajian besar pertama.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Target: **Deluxe Pack 10.000g** (36 slot) ~S14\u201318.",
+       "tags": [
+        [
+         "time",
+         "10.000g"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 15,
+     "title": "\u26a0\ufe0f DEADLINE Blueberry",
+     "goal": "Hari terakhir tanam.",
+     "steps": [
+      {
+       "text": "**Hari terakhir tanam Blueberry & Starfruit** (13 hari \u2192 panen S28).",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "DEADLINE"
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 16,
+     "title": "\u26a0\ufe0f DEADLINE Melon",
+     "goal": "",
+     "steps": [
+      {
+       "text": "**Hari terakhir tanam Melon** (12 hari).",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "DEADLINE"
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 17,
+     "title": "\ud83c\udf82 Sam",
+     "goal": "Pierre tutup + deadline.",
+     "steps": [
+      {
+       "text": "Ultah **Sam** \u2014 **Pizza**. **Pierre TUTUP**. Deadline tanam **Tomato & Hops**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 18,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 19,
+     "title": "\ud83c\udf82 Demetrius",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Demetrius**. Deadline **Red Cabbage** (kalau dapat bibit dari cart).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 20,
+     "title": "\ud83c\udfa3 TROUT DERBY (1/2)",
+     "goal": "Hadiah: Quality Sprinkler!",
+     "steps": [
+      {
+       "text": "Sungai Cindersap dekat Marnie's, **6:10am\u20132am**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill",
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "Tangkap **Rainbow Trout** \u2192 33% Golden Tag. Hadiah termasuk **1 Quality Sprinkler**!",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc",
+        "money"
+       ]
+      },
+      {
+       "text": "Toko/rumah TIDAK tutup, waktu tetap berjalan.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 21,
+     "title": "\ud83c\udfa3 TROUT DERBY (2/2)",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Hari terakhir derby \u2014 kejar tag yang kurang.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill",
+        "money"
+       ]
+      },
+      {
+       "text": "Deadline tanam **Poppy**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 22,
+     "title": "\ud83c\udf82 Dwarf",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Dwarf**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 23,
+     "title": "Deadline Hot Pepper",
+     "goal": "",
+     "steps": [
+      {
+       "text": "**Hari terakhir tanam Hot Pepper**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 24,
+     "title": "\ud83c\udf82 Willy",
+     "goal": "Pierre tutup.",
+     "steps": [
+      {
+       "text": "Ultah **Willy**. **Pierre TUTUP**. Deadline tanam **Wheat**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 25,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari (atau cek sprinkler).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Hot Pepper (tiap 3 hari), Tomato (tiap 4 hari), Hops (tiap hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines sore hari \u2014 kejar lantai 40 \u2192 80.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "**Sapa warga** + 2 hadiah/minggu ke target teman.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 26,
+     "title": "\ud83c\udf82 Leo",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Leo**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 27,
+     "title": "Upgrade Watering Can",
+     "goal": "Aman di-upgrade sekarang.",
+     "steps": [
+      {
+       "text": "Hari aman upgrade **Watering Can** ke Clint (2 hari \u2192 ambil Fall 1; tanaman Summer mati).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 28,
+     "title": "\ud83c\udf19 MOONLIGHT JELLIES",
+     "goal": "Sinematik, santai.",
+     "steps": [
+      {
+       "text": "Pantai **10pm\u201312am** \u2014 bicara ke Lewis untuk cutscene (cari ubur-ubur hijau langka).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      },
+      {
+       "text": "Murni sinematik \u2014 **tidak ada hadiah/minigame**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    }
+   ]
+  },
+  {
+   "season": "\ud83c\udf42 Fall",
+   "intro": "Panen raya + target GREENHOUSE. Cranberry & pumpkin andalan.",
+   "days": [
+    {
+     "n": 1,
+     "title": "\ud83c\udf31 Hari Tanam Besar",
+     "goal": "Tanam semua + pohon buah.",
+     "steps": [
+      {
+       "text": "Tanam **cranberry, pumpkin, yam, grape, eggplant, amaranth, RARE SEED**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "Tanam **pohon buah Apple/Pomegranate** (28 hari \u2192 panen F28, untuk Artisan Bundle).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      },
+      {
+       "text": "Rare Seed **1.000g** di Traveling Cart (Jumat & Minggu).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 2,
+     "title": "\ud83c\udf82 Penny",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Penny** \u2014 **Melon/Poppy**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 3,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 4,
+     "title": "\u26a0\ufe0f DEADLINE Rare Seed",
+     "goal": "Tanpa pupuk = hari terakhir.",
+     "steps": [
+      {
+       "text": "**Hari terakhir tanam Rare Seed** (24 hari \u2192 panen F28). Speed-Gro \u2192 F7; Deluxe \u2192 F10.",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "DEADLINE"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 5,
+     "title": "\ud83c\udf82 Elliott",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Elliott**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 6,
+     "title": "Panen Eggplant",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Panen **eggplant pertama** (regrow F11/16/21/26).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 7,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 8,
+     "title": "\ud83d\udcb0 Cranberry + Blackberry",
+     "goal": "Panen ganda.",
+     "steps": [
+      {
+       "text": "Panen **cranberry pertama** (tanam F1).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Blackberry Season (8\u201311):** panen massal di semak untuk energi.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "chill",
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 9,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 10,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 11,
+     "title": "\ud83c\udf82 Jodi",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Jodi**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 12,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 13,
+     "title": "\ud83c\udf82 Abigail",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Abigail** \u2014 **Amethyst**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 14,
+     "title": "Panen Pumpkin",
+     "goal": "Tanam ulang gelombang 2.",
+     "steps": [
+      {
+       "text": "Panen **pumpkin pertama** \u2192 **tanam ulang** (panen F27).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Deadline tanam **Corn**.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 15,
+     "title": "\ud83c\udf82 Sandy",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Sandy** (Oasis). Deadline tanam **Pumpkin** (1 panen).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 16,
+     "title": "\ud83c\udfa1 STARDEW FAIR",
+     "goal": "Grange Display \u2192 kejar Stardrop!",
+     "steps": [
+      {
+       "text": "**Grange Display:** maks **9 item**, 6 kategori (Animal, Artisan, Cooking, Fish, Foraging, Fruit, Mineral, Vegetable).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc",
+        "chill",
+        "money"
+       ]
+      },
+      {
+       "text": "Juara 1 (90+) = **1.000 token**. **Stardrop = 2.000 token** (satu dari 7, +energy permanen)!",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Tips Y1: ikan gold/iridium, pumpkin gold, mineral langka, mayo/cheese, masakan.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      },
+      {
+       "text": "Deadline tanam **Fairy Rose**.",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 17,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 18,
+     "title": "\ud83c\udf82 Marnie",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Marnie**. Panen cranberry #3. Deadline **Grape & Yam**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "money",
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 19,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 20,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 21,
+     "title": "\ud83c\udf82 Robin",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Robin**. Deadline tanam **Cranberry & Amaranth**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 22,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 23,
+     "title": "Deadline Eggplant",
+     "goal": "",
+     "steps": [
+      {
+       "text": "**Hari terakhir tanam Eggplant** (1 panen).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 24,
+     "title": "\ud83c\udf82 George",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **George**. Deadline **Bok Choy & Wheat**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 25,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 26,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "**Siram semua tanaman** pagi hari.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Panen **regrow**: Cranberry (tiap 5 hari), Eggplant (tiap 5 hari), Grape (tiap 3 hari).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Mines \u2014 kejar **lantai 120** (Skull Key).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Elus hewan tiap hari (naikkan friendship \u2192 produk besar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 27,
+     "title": "\ud83d\udc7b SPIRIT'S EVE",
+     "goal": "Labirin hantu \u2192 Golden Pumpkin.",
+     "steps": [
+      {
+       "text": "**10pm\u201311:50pm**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      },
+      {
+       "text": "Labirin hantu \u2192 **Golden Pumpkin (2.500g)**. Simpan 1 untuk display tahun depan.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 28,
+     "title": "Tutup Fall",
+     "goal": "Panen terakhir.",
+     "steps": [
+      {
+       "text": "Panen **cranberry #5** + **Sweet Gem Berry** (3.000g; 6.000g iridium).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Semua tanaman mati besok!**",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    }
+   ]
+  },
+  {
+   "season": "\u2744\ufe0f Winter",
+   "intro": "Tidak ada tanaman luar. Fokus: mines, mancing, bundle, upgrade tools.",
+   "days": [
+    {
+     "n": 1,
+     "title": "\u2744\ufe0f Tanam Winter",
+     "goal": "Powdermelon + Winter Seeds.",
+     "steps": [
+      {
+       "text": "Tanam batch 1 **Powdermelon + Winter Seeds** (siklus 7 hari: tanam W1 \u2192 panen W8).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Ultah **Krobus** (Sewer).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Bibit Powdermelon **TIDAK dijual** \u2014 dari seed spot/rumput bergoyang, atau **tukar 2 Pine Cone** ke Raccoon Wife.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 2,
+     "title": "Kumpulkan Bibit",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Cangkul **seed spot & rumput bergoyang** tiap hari. Kumpulkan **Pine Cone**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 3,
+     "title": "\ud83c\udf82 Linus",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Linus** (tenda gunung).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 4,
+     "title": "Fokus Tambang",
+     "goal": "Target lantai 80+.",
+     "steps": [
+      {
+       "text": "Fokus tambang: target **lantai 80+** (gold ore), kumpulkan **stone** untuk Staircase.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Antre **upgrade tool** ke Clint \u2014 aman di Winter (tidak ada crop luar).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "combat"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 5,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 6,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 7,
+     "title": "\ud83c\udf82 Caroline",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Caroline**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 8,
+     "title": "\ud83e\uddca FESTIVAL OF ICE",
+     "goal": "Lomba mancing es.",
+     "steps": [
+      {
+       "text": "Cindersap **9am\u20132pm**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      },
+      {
+       "text": "Lomba mancing: **tangkap \u22655 ikan** \u2192 **Barbed Hook + Dressed Spinner + Magnet + Sailor's Cap**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "Toko: Rarecrow 5.000g.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 9,
+     "title": "Siklus Mandiri",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Panen batch 1 Winter Seeds \u2192 **craft ulang bibit** \u2192 siklus mandiri tanpa beli.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 10,
+     "title": "\ud83c\udf82 Sebastian",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Sebastian** \u2014 **Frozen Tear**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 11,
+     "title": "Siap SquidFest",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Persiapan: **Trap Bobber**, makanan buff mancing (Dish O' The Sea/Trout Soup).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 12,
+     "title": "\ud83e\udd91 SQUIDFEST (1/2)",
+     "goal": "Tier 1/3/5/8.",
+     "steps": [
+      {
+       "text": "Beach **6:10am\u20132am**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      },
+      {
+       "text": "**Klaim hadiah di stan nelayan HARI YANG SAMA** \u2014 counter reset tiap hari!",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 13,
+     "title": "\ud83e\udd91 SQUIDFEST (2/2)",
+     "goal": "Tier 2/5/7/10.",
+     "steps": [
+      {
+       "text": "Hari terakhir \u2014 kejar tier yang kurang.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 14,
+     "title": "\ud83c\udf82 Harvey",
+     "goal": "Kejar lantai 120.",
+     "steps": [
+      {
+       "text": "Ultah **Harvey**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      },
+      {
+       "text": "Usahakan **lantai 120 tercapai minggu ini** \u2192 **Skull Key**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 15,
+     "title": "\ud83c\udf03 NIGHT MARKET (1/3)",
+     "goal": "Kapal selam + Mermaid + Cart!",
+     "steps": [
+      {
+       "text": "Beach **5pm\u20132am**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "chill",
+        "money"
+       ]
+      },
+      {
+       "text": "**Kapal selam 1.000g** (naik 5\u201311pm): **Midnight Squid, Spook Fish, Blobfish** + peluang Pearl.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mermaid Show: kerang 1-5-4-2-3 \u2192 Pearl 2.500g** (SEKALI per save!).",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         "MISSABLE"
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Traveling Cart 5pm\u20132am, stok BARU tiap hari** \u2014 cek Rare Seed, Coffee Bean, Ancient Seed.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc",
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 16,
+     "title": "\ud83c\udf03 NIGHT MARKET (2/3)",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Lanjutkan kapal selam (target Blobfish).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 17,
+     "title": "\ud83c\udf03 NIGHT MARKET (3/3)",
+     "goal": "Hari terakhir!",
+     "steps": [
+      {
+       "text": "**Hari TERAKHIR** \u2014 jangan lewatkan kapal selam/Mermaid/Cart!",
+       "tags": [
+        [
+         "must",
+         ""
+        ],
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "chill",
+        "money"
+       ]
+      },
+      {
+       "text": "Ultah **Wizard**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 18,
+     "title": "\ud83d\udc8c Surat Lewis",
+     "goal": "Siapkan kado Winter Star.",
+     "steps": [
+      {
+       "text": "Lewis kirim **nama penerima kado Winter Star** \u2014 siapkan kado kualitas terbaik.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 19,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 20,
+     "title": "\ud83c\udf82 Evelyn",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Evelyn**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 21,
+     "title": "Batch Tanam Terakhir",
+     "goal": "",
+     "steps": [
+      {
+       "text": "**Batch tanam terakhir** (7 hari \u2192 panen sebelum W28).",
+       "tags": [
+        [
+         "warn",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 22,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 23,
+     "title": "\ud83c\udf82 Leah",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Leah** \u2014 **Salad 220g** di Saloon.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 24,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 25,
+     "title": "\ud83c\udf81 WINTER STAR",
+     "goal": "Tukar kado rahasia.",
+     "steps": [
+      {
+       "text": "Pelican Town **9am\u20132pm**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "chill"
+       ]
+      },
+      {
+       "text": "Beri kado **terbaik** (Pearl/Prismatic Shard). Satu-satunya cara dapat **Tea Set**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "love",
+        "chill"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 26,
+     "title": "\ud83c\udf82 Clint",
+     "goal": "",
+     "steps": [
+      {
+       "text": "Ultah **Clint**.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "love"
+       ]
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 27,
+     "title": "Penutupan Winter",
+     "goal": "Checklist Year 2.",
+     "steps": [
+      {
+       "text": "**Greenhouse penuh + sprinkler**; pohon buah di border.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money",
+        "cc"
+       ]
+      },
+      {
+       "text": "Semua tool ter-upgrade **minimal Steel**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "combat",
+        "money"
+       ]
+      },
+      {
+       "text": "**Vault selesai \u2192 bus Desert aktif**.",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "cc",
+        "combat"
+       ]
+      },
+      {
+       "text": "Silo penuh hay; tabung bibit Spring Y2.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": []
+      }
+     ],
+     "warning": ""
+    },
+    {
+     "n": 28,
+     "title": "Hari Rutin",
+     "goal": "Jalankan rutinitas harian.",
+     "steps": [
+      {
+       "text": "Cek **Greenhouse** (panen + isi keg/preserves jar).",
+       "tags": [
+        [
+         "must",
+         ""
+        ]
+       ],
+       "g": [
+        "money"
+       ]
+      },
+      {
+       "text": "**Mines seharian** \u2014 Winter = musim tambang terbaik.",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "combat"
+       ]
+      },
+      {
+       "text": "Forage winter: Crocus, Crystal Fruit, Snow Yam (cangkul).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ]
+      },
+      {
+       "text": "Kasih makan hewan + elus (silo harus berisi hay).",
+       "tags": [
+        [
+         "info",
+         ""
+        ]
+       ],
+       "g": [
+        "cc"
+       ]
+      }
+     ],
+     "warning": ""
+    }
+   ]
+  }
+ ],
+ "marriage": [
+  "**12 kandidat**: Abigail, Emily, Haley, Leah, Maru, Penny, Alex, Elliott, Harvey, Sam, Sebastian, Shane.",
+  "Naikkan ke **8 hearts** dengan SATU kandidat (sapa + 2 hadiah/minggu; ultah = 8x lipat).",
+  "**Bouquet 200g di Pierre** (muncul setelah 8 hearts dengan kandidat) \u2192 status dating, hearts terbuka ke 10.",
+  "Naikkan ke **10 hearts**, lalu **upgrade rumah tahap 1: 10.000g + 450 wood** (Robin).",
+  "**Hari HUJAN** \u2192 perbaiki jembatan pantai (300 wood) \u2192 Old Mariner \u2192 **Mermaid's Pendant 5.000g** (Winter: pakai Rain Totem).",
+  "Beri pendant \u2192 **nikah 3 hari kemudian**. Realistis tercapai **Fall\u2013Winter Year 1**.",
+  "Setelah nikah: spouse bisa **menyiram tanaman, memberi makan hewan, memperbaiki pagar**, dan memberi sarapan. Stardrop di 12,5 hearts!"
+ ],
+ "goalpaths": [
+  {
+   "e": "\ud83d\udcb0",
+   "name": "Jadi Sultan",
+   "steps": [
+    "Spring: mancing minggu 1 = modal; strawberry Festival H13 sebanyak-banyaknya.",
+    "Summer: tanam **Blueberry massal**; beli **Deluxe Pack 10.000g** ~S14.",
+    "Fall: tanam **Cranberry massal**; kejar **Vault 42.500g** (bus Desert).",
+    "Dapatkan **Ancient Seed** (donasi artefak ke Gunther) \u2192 tanam di **Greenhouse** (28 hari, panen tiap 7 hari selamanya).",
+    "Bangun **Keg** (Farming Lv8): Starfruit Wine 2.250g \u2192 **3.150g (Artisan)**; Ancient Fruit Wine 1.650g \u2192 2.310g.",
+    "Profesi **Tiller \u2192 Artisan (+40% artisan goods)**. **Babi truffle** (Deluxe Barn): 1\u20133 truffle/hari.",
+    "Abaikan friendship kecuali untuk unlock (Pierre, Clint)."
+   ]
+  },
+  {
+   "e": "\ud83c\udfdb\ufe0f",
+   "name": "Community Center Year 1",
+   "steps": [
+    "Cek **Traveling Cart tiap Jumat & Minggu** tanpa absen \u2014 satu-satunya sumber **Red Cabbage** Year 1.",
+    "Tanam **pohon buah Apple & Pomegranate di awal Summer** (panen Fall, untuk Artisan Bundle).",
+    "**Basic Fertilizer SEBELUM tanam** untuk melon/pumpkin GOLD (Quality Crops Bundle).",
+    "Simpan **1 dari tiap tanaman/ikan/forage** \u2014 jangan jual semua.",
+    "Urutan: Spring Crops \u2192 Summer Crops \u2192 **Vault (bus)** \u2192 Fall Crops & Quality \u2192 Artisan/Fish Tank.",
+    "Target **Greenhouse Fall/Winter** \u2014 tanaman bebas musim selamanya."
+   ]
+  },
+  {
+   "e": "\ud83d\udc95",
+   "name": "Nikah Year 1",
+   "steps": [
+    "**Pilih 1 kandidat** (jangan sebar): **Shane** (ultah Spring 20, Beer/Pizza Saloon) atau **Haley** (ultah Spring 14).",
+    "Sapa tiap hari + 2 loved gift/minggu. **Ultah kandidat = prioritas #1** (+640 \u2248 2,5 hearts).",
+    "**8 hearts \u2192 Bouquet 200g** (~Summer) \u2192 dating \u2192 **10 hearts**.",
+    "Paralel: **10.000g + 450 wood** \u2192 upgrade rumah (target selesai sebelum Fall).",
+    "**10 hearts + hari HUJAN** \u2192 Mermaid's Pendant 5.000g \u2192 **nikah 3 hari kemudian** (Fall\u2013Winter).",
+    "Setelah nikah: sapa + cium tiap hari agar spouse rajin bantu farm."
+   ]
+  },
+  {
+   "e": "\u2694\ufe0f",
+   "name": "Penakluk Mines",
+   "steps": [
+    "Senjata: Steel Smallsword (lantai 20) \u2192 **Obsidian Edge (lantai 90)** \u2192 Lava Katana \u2192 Galaxy Sword.",
+    "Target **lantai 120 cepat**: turun per 5 lantai via elevator; bawa makanan heal; bom untuk lantai infested.",
+    "Siapkan **Staircase (99 stone)** untuk Skull Cavern; **Desert Trader: 1 Jade = 1 Staircase** tiap Minggu.",
+    "Farming **Iridium di Skull Cavern** (lantai 40+, terbaik 100+); hari luck bagus = hari Skull Cavern.",
+    "Upgrade **Pickaxe prioritas #1** (Copper \u2192 Steel \u2192 Gold)."
+   ]
+  },
+  {
+   "e": "\ud83d\udc22",
+   "name": "Santai",
+   "steps": [
+    "**Tidak ada deadline wajib** kecuali festival \u2014 game tidak pernah tamat.",
+    "Fokus **mancing + foraging** di awal: energi stabil, uang cukup, tanpa modal bibit.",
+    "Berteman tanpa target: 2 hadiah/minggu; ultah = bonus, bukan kewajiban.",
+    "Mines dicicil: 5 lantai/kunjungan (manfaatkan elevator).",
+    "Farm kecil + 1\u20132 hewan favorit; sprinkler saat uang longgar.",
+    "**Evaluasi Kakek bisa diulang kapan saja dengan Diamond** \u2014 hilangkan semua tekanan.",
+    "Satu-satunya 'jadwal': hadir di tiap festival."
+   ]
+  }
+ ],
+ "year2": "Year 2 dibuka dengan kembalinya **Kent** (ayah Sam & Vincent). Target besar: buka **Ginger Island** (Community Center selesai + perahu Willy: 200 hardwood + 5 iridium bar + 5 battery pack, tiket 1.000g) \u2192 kejar **100 Golden Walnuts** untuk Qi's Walnut Room. Dorong 5 skill ke level 10 untuk **Mastery system (1.6)**. Puncaknya: **evaluasi Kakek Spring 1 Year 3** \u2014 21 poin, butuh 12+ (4 lilin) \u2192 **Statue of Perfection** (2\u20138 iridium/hari). Kabar baik: evaluasi **bisa diulang kapan saja dengan Diamond**."
 }
