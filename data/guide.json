@@ -1,0 +1,1044 @@
+{
+ "about": [
+  "**Stardew Valley** adalah game simulasi farm + RPG karya solo developer Eric \"ConcernedApe\" Barone. Kamu mewarisi lahan pertanian kakekmu di **Pelican Town** dan kabur dari pekerjaan korporat di **Joja Corporation**. Tidak ada game over \u2014 mainkan sesukamu: bertani, mancing, tambang, berteman, menikah, atau kejar 100% completion.",
+  "Satu tahun = **4 musim \u00d7 28 hari** (Spring \u2192 Summer \u2192 Fall \u2192 Winter). Tiap musim punya tanaman, ikan, forage, dan festival berbeda. **Tanaman Spring MATI saat Summer tiba** \u2014 rencanakan deadline tanam! Versi Android sudah update **1.6** (Meadowlands Farm, Desert Festival, tanaman baru, dll).",
+  "Panduan ini fokus ke **Spring Tahun 1 hari per hari** \u2014 fondasi yang menentukan sisa permainanmu. Ikuti urutannya, tandai yang berlabel \u2b50 WAJIB dan \u26a0\ufe0f PERHATIAN."
+ ],
+ "android": [
+  "**Tap-to-move (default):** tap petak \u2192 petani jalan sendiri + **otomatis pakai tool yang tepat** (cangkul di tanah, kapak di pohon). Alternatif: **virtual joystick** di Menu \u2192 Options \u2192 Controls.",
+  "**Auto-attack di mines:** pedang otomatis menebas saat musuh dalam jangkauan. **Tap langsung musuh** = jalan ke musuh + secondary attack (satu-satunya cara). Hati-hati **Mummy** \u2014 tidak bisa dibunuh senjata biasa, petani akan terus menyerang sia-sia!",
+  "**Auto-tool select:** game otomatis memilih item terakhir yang dipakai manual \u2014 manfaatkan untuk swap cepat tambang \u2194 pedang.",
+  "**Pinch zoom** untuk zoom in/out \u2014 berguna di mines. **Bluetooth controller** didukung (menu tetap via sentuhan).",
+  "**Save = tidur.** Tidak ada autosave! Jangan tutup paksa aplikasi sebelum tidur. Backup file save manual via file manager kalau mau aman.",
+  "Multiplayer mobile **eksperimental & tersembunyi** (1.6): buka via kode Konami di daun logo title screen, koneksi via IP. Tidak butuh internet setelah download."
+ ],
+ "quick": [
+  "**Jangan jual semua** \u2014 simpan 1 tiap crop/forage/ikan untuk bundle; simpan 5 parsnip/melon/pumpkin GOLD untuk Quality Bundle.",
+  "**Cek TV tiap pagi:** ramalan cuaca (rencanakan upgrade watering can), fortune teller (luck \u2192 hari bagus mines), Queen of Sauce tiap Minggu (rerun Rabu) = resep masakan.",
+  "**Bangun SILO dulu SEBELUM potong rumput** (100g + 100 stone + 10 clay + 5 copper bar, di Robin) \u2014 rumput jadi hay cuma kalau silo sudah ada.",
+  "**Jangan tebang SEMUA pohon** \u2014 butuh Oak Resin/Maple Syrup/Pine Tar (pakai Tapper, 7\u20138 hari) untuk bundle & crafting.",
+  "**Simpan uang untuk Strawberry Festival (Hari 13)** \u2014 jangan habiskan semua untuk potato.",
+  "**Jangan upgrade Watering Can** saat tanaman butuh disiram \u2014 tunggu ramalan hujan besok atau Winter.",
+  "**Tanam cauliflower/kentang dalam grid 3\u00d73** \u2014 ada chance jadi Giant Crop.",
+  "**Prioritaskan backpack 2.000g** sebelum beli benih banyak \u2014 inventory penuh = bolak-balik farm.",
+  "**Hari hujan = hari mines** (tidak perlu siram). **Hari luck bagus = push lantai mines.**",
+  "**Jangan kejar semua** \u2014 Year 1 soal fondasi; perfection bisa Year 2+."
+ ],
+ "days": [
+  {
+   "n": 1,
+   "title": "Tanam Pertama",
+   "goal": "Tanam parsnip + buat chest + forage.",
+   "steps": [
+    {
+     "text": "Tanam **15 Parsnip** bawaan Lewis, siram tiap hari (4 hari \u2192 panen Hari 5). Tanaman tidak mati kalau lupa siram, hanya telat panen.",
+     "tags": [
+      [
+       "must",
+       ""
+      ],
+      [
+       "time",
+       "pagi"
+      ]
+     ]
+    },
+    {
+     "text": "Tebang pohon \u2192 kumpulkan **50 wood \u2192 buat 1 Chest**. Simpan semua, jangan jual membabi buta.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Forage di Cindersap Forest: **Spring Onion** (respawn tiap hari, 50g), Daffodil, Dandelion, Leek, Wild Horseradish.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Sisakan **1 tiap jenis forage** untuk Spring Foraging Bundle.",
+     "tags": [
+      [
+       "warn",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Tidur sebelum jam 12 malam \u2014 energy pulih penuh; pingsan di luar = bayar denda.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 2,
+   "title": "Pancing Gratis!",
+   "goal": "Ambil Bamboo Pole + mancing seharian.",
+   "steps": [
+    {
+     "text": "Cek mailbox \u2192 surat **Willy** \u2192 ke Beach \u2192 dapat **Bamboo Pole GRATIS**.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**Mancing seharian.** Mancing = sumber uang tercepat minggu pertama (lebih cepat dari bertani) \u2014 konsensus komunitas.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Opsional: beli **Large Pack (2.000g)** di Pierre kalau uang cukup \u2192 inventory 12 \u2192 24 slot.",
+     "tags": [
+      [
+       "time",
+       "2.000g"
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 3,
+   "title": "Pierre Tutup!",
+   "goal": "Forage + sapa warga. Jangan ke Pierre.",
+   "steps": [
+    {
+     "text": "**Pierre TUTUP tiap Rabu** (JojaMart tetap buka tapi benih lebih mahal).",
+     "tags": [
+      [
+       "warn",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Mancing / forage / **sapa semua warga** (sapaan harian = +20 friendship).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Kumpulkan wood: target **300 wood** untuk perbaiki jembatan pantai (tidal pools = forage mahal tiap hari).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 4,
+   "title": "Kumpulkan Modal",
+   "goal": "Target 2.000g+ untuk backpack.",
+   "steps": [
+    {
+     "text": "Mancing pagi, forage sore.",
+     "tags": []
+    },
+    {
+     "text": "Target komunitas: kantongi **2.000g+** \u2192 beli Large Pack besok.",
+     "tags": [
+      [
+       "time",
+       "2.000g"
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 5,
+   "title": "PANEN + MINES TERBUKA",
+   "goal": "Hari tersibuk! Panen, mines, Community Center.",
+   "steps": [
+    {
+     "text": "**PANEN 15 parsnip.**",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Sisakan: **1 parsnip biasa** (Spring Crops Bundle) + usahakan **5 parsnip GOLD** (Quality Crops Bundle \u2014 butuh Basic Fertilizer dipasang SEBELUM tanam).",
+     "tags": [
+      [
+       "warn",
+       "MISSABLE"
+      ]
+     ]
+    },
+    {
+     "text": "**MINES TERBUKA!** Masuk mines: target lantai 5\u201310 hari ini, kumpulkan **copper ore**. Bawa makanan.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Masuk kota dari arah **Bus Stop** \u2192 cutscene **\"Rat Problem\"** \u2192 temui **Wizard** \u2192 **Community Center terbuka**.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Belanja dengan uang parsnip: **Potato** (50g/biji, 6 hari) secukupnya + **3\u20135 Green Bean** (60g, 10 hari, panen ulang tiap 3 hari \u2014 untuk bundle).",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Setelah kumpulkan copper ore pertama, **Clint datang besok pagi** memberi blueprint **Furnace** (20 copper ore + 25 stone).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 6,
+   "title": "Tanam Putaran 2",
+   "goal": "Potato + green bean + kumpulkan copper.",
+   "steps": [
+    {
+     "text": "Tanam potato + green bean. Siram.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Mines: kumpulkan copper (target 25+ ore).",
+     "tags": []
+    },
+    {
+     "text": "Prioritas upgrade komunitas #1: **Copper Pickaxe** (2.000g + 5 copper bar, 2 hari di Clint).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 7,
+   "title": "Traveling Cart",
+   "goal": "Mines / forage + cek pedagang keliling.",
+   "steps": [
+    {
+     "text": "**Traveling Cart** di Cindersap Forest tiap **Jumat & Minggu** \u2014 cek item langka untuk bundle.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Lanjut mines atau forage.",
+     "tags": []
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 8,
+   "title": "Push Mines",
+   "goal": "Target lantai 20 \u2192 40. Bikin scarecrow.",
+   "steps": [
+    {
+     "text": "Mines: target **lantai 20** (hadiah: Steel Smallsword) lalu **lantai 40** (Slingshot; mulai zona iron).",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Buat **Scarecrow** (resep Farming level 1: 50 wood + 1 coal + 20 fiber) \u2014 **WAJIB kalau tanaman >15**; gagak bisa makan tanamanmu.",
+     "tags": [
+      [
+       "warn",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**Hari 11/12: PANEN potato** \u2192 tanam ulang atau beli **Kale** (70g, 6 hari) untuk putaran uang cepat.",
+     "tags": [
+      [
+       "time",
+       "H11/12"
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 12,
+   "title": "Kumpulkan Uang Strawberry",
+   "goal": "Target 2.000\u20134.000g+ untuk belanja besok.",
+   "steps": [
+    {
+     "text": "Kumpulkan uang sebanyak mungkin \u2014 mancing, jual panen, forage.",
+     "tags": [
+      [
+       "must",
+       ""
+      ],
+      [
+       "time",
+       "2\u20134rb g"
+      ]
+     ]
+    },
+    {
+     "text": "Jangan beli benih Spring lagi \u2014 semua uang untuk strawberry besok.",
+     "tags": [
+      [
+       "warn",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 13,
+   "title": "\ud83e\udd5a EGG FESTIVAL",
+   "goal": "BELI strawberry sebanyak-banyaknya + langsung tanam.",
+   "steps": [
+    {
+     "text": "Masuk Town Square **9am\u20132pm**.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**BELI Strawberry Seeds (100g/biji) SEBANYAK MUNGKIN** \u2014 ini satu-satunya sumber strawberry tahun ini.",
+     "tags": [
+      [
+       "must",
+       ""
+      ],
+      [
+       "warn",
+       "MISSABLE"
+      ]
+     ]
+    },
+    {
+     "text": "**Egg Hunt:** kumpulkan **9 telur** (kalahkan Abigail) \u2192 hadiah **Straw Hat**.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Pulang \u2192 **langsung tanam strawberry hari itu juga**. Tanam paling lambat H16 agar panen 2x (H21 & H25). 8 hari tumbuh + panen ulang tiap 4 hari.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 14,
+   "title": "\ud83c\udf82 Haley",
+   "goal": "Kasih Daffodil.",
+   "steps": [
+    {
+     "text": "Ulang tahun **Haley** \u2014 kasih **Daffodil** (liked) atau bunga. Ultah = hadiah 8x lipat!",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 15,
+   "title": "Salmonberry + Deadline Cauliflower",
+   "goal": "Petik salmonberry tiap hari. Tanam cauliflower SEBELUM H17.",
+   "steps": [
+    {
+     "text": "**Salmonberry Season (15\u201328):** petik salmonberry di semak tiap hari = energi gratis.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**DEADLINE WAJIB: tanam CAULIFLOWER paling lambat HARI 16** (12 hari \u2192 panen H28; 80g/biji, jual 175g; untuk Spring Crops Bundle).",
+     "tags": [
+      [
+       "must",
+       ""
+      ],
+      [
+       "warn",
+       "DEADLINE"
+      ]
+     ]
+    },
+    {
+     "text": "Desert Festival (15\u201317, baru di 1.6) \u2014 bus ke desert gratis 2 hari pertama; opsional untuk pemula, fokus ladang.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 18,
+   "title": "\ud83c\udf82 Pam",
+   "goal": "Pierre tutup lagi.",
+   "steps": [
+    {
+     "text": "Ulang tahun **Pam**. **Pierre TUTUP** (Rabu).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 20,
+   "title": "\ud83c\udf82 Shane",
+   "goal": "Kasih Beer/Pizza dari Saloon = loved!",
+   "steps": [
+    {
+     "text": "Ulang tahun **Shane** \u2014 kasih **Beer (400g) / Pizza (600g) / Hot Pepper** dari Saloon = **loved** \u2192 ultah 8x = **+640 poin (~2,5 hati)**.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 21,
+   "title": "Panen Strawberry!",
+   "goal": "Panen pertama + sisakan untuk hadiah.",
+   "steps": [
+    {
+     "text": "**PANEN strawberry pertama.** Sisakan beberapa \u2014 **Maru loves strawberry** (ultahnya Summer 10).",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 24,
+   "title": "\ud83c\udf38 FLOWER DANCE",
+   "goal": "BELI item toko SEBELUM dansa dimulai!",
+   "steps": [
+    {
+     "text": "Masuk Town 9am\u20132pm.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**Beli di toko Pierre SEBELUM dansa:** **Tub o' Flowers Recipe (1.000g)** \u2014 WAJIB untuk 100%/perfection; **Rarecrow #5 (2.500g)** \u2014 koleksi 8 rarecrow. Stok sama tiap tahun tapi jangan tunda.",
+     "tags": [
+      [
+       "must",
+       ""
+      ],
+      [
+       "warn",
+       "MISSABLE"
+      ]
+     ]
+    },
+    {
+     "text": "Dansa butuh **4 hearts** \u2014 kemungkinan belum tercapai Year 1; tidak apa-apa, duduk nonton saja.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 25,
+   "title": "Panen Strawberry Terakhir",
+   "goal": "",
+   "steps": [
+    {
+     "text": "Panen strawberry kedua (terakhir Spring ini).",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 26,
+   "title": "\ud83c\udf82 Pierre",
+   "goal": "",
+   "steps": [
+    {
+     "text": "Ulang tahun **Pierre**.",
+     "tags": [
+      [
+       "info",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 27,
+   "title": "\ud83c\udf82 Emily",
+   "goal": "Kasih Amethyst dari mines.",
+   "steps": [
+    {
+     "text": "Ulang tahun **Emily** \u2014 kasih **Amethyst** (dari mines) = loved.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  },
+  {
+   "n": 28,
+   "title": "Tutup Spring, Siapkan Summer",
+   "goal": "Panen terakhir + belanja benih Summer.",
+   "steps": [
+    {
+     "text": "**Panen cauliflower terakhir.**",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "**Semua tanaman Spring MATI saat ganti musim** \u2014 jangan tanam yang tidak keburu panen!",
+     "tags": [
+      [
+       "warn",
+       ""
+      ]
+     ]
+    },
+    {
+     "text": "Beli benih **SUMMER** di Pierre: **Blueberry** (80g, 13 hari, panen tiap 4 hari \u00d7 3 buah \u2014 primadona summer), **Melon** (80g, 12 hari), Hot Pepper, Tomato. Tanam Summer Day 1.",
+     "tags": [
+      [
+       "must",
+       ""
+      ]
+     ]
+    }
+   ],
+   "warning": ""
+  }
+ ],
+ "seasons": [
+  {
+   "name": "\u2600\ufe0f Summer",
+   "intro": "Musim uang! Blueberry adalah mesin uang terbaik Year 1. Festival Luau dan Trout Derby wajib diikuti.",
+   "points": [
+    {
+     "h": "\ud83c\udf3e Tanaman Unggulan",
+     "items": [
+      "**Blueberry** (80g, 13 hari, panen tiap 4 hari \u00d7 3 buah) \u2014 tanam sebanyak-banyaknya.",
+      "**Melon** (80g, 12 hari) \u2014 untuk bundle + hadiah (Penny loves).",
+      "**Hot Pepper** (40g, 10 hari, panen ulang tiap 3 hari) \u2014 Shane loves.",
+      "Hops (60g, 11 hari, panen TIAP hari \u2192 Keg jadi Pale Ale) untuk jalur artisan."
+     ]
+    },
+    {
+     "h": "\ud83c\udfaa Festival",
+     "items": [
+      "**Luau (11):** potluck soup \u2014 masukkan item kualitas TINGGI untuk respons terbaik Gubernur + friendship.",
+      "**Trout Derby (20\u201321, baru 1.6):** hadiah termasuk **Quality Sprinkler**!",
+      "**Dance of the Moonlight Jellies (28, 10pm\u201312am):** naratif/sosial, santai."
+     ]
+    },
+    {
+     "h": "\ud83c\udf82 Ultah Penting",
+     "items": [
+      "**Gus (8)** \u2014 masakan ikan.",
+      "**Maru (10)** \u2014 Cauliflower/Strawberry dari kebunmu!",
+      "**Sam (17)** \u2014 Pizza.",
+      "Alex (13), Demetrius (19), Dwarf (22), Willy (24), Leo (26)."
+     ]
+    },
+    {
+     "h": "\ud83c\udfaf Target Summer",
+     "items": [
+      "Capai **Farming Lv6 \u2192 Quality Sprinkler** (siram 8 petak otomatis!).",
+      "Kejar **Vault 42.500g** (2.500+5.000+10.000+25.000) \u2192 bus ke Desert.",
+      "Beli **Deluxe Pack (10.000g)** \u2192 36 slot.",
+      "Bangun **Coop (4.000g) / Barn (6.000g)**."
+     ]
+    }
+   ]
+  },
+  {
+   "name": "\ud83c\udf42 Fall",
+   "intro": "Musim panen raya + target GREENHOUSE. Cranberry dan Pumpkin jadi andalan.",
+   "points": [
+    {
+     "h": "\ud83c\udf3e Tanaman Unggulan",
+     "items": [
+      "**Cranberry** (130g, 7 hari, panen tiap 5 hari \u00d7 2 buah) \u2014 mesin uang fall.",
+      "**Pumpkin** (100g, 13 hari) \u2014 untuk bundle + Abigail loves.",
+      "**Starfruit** (biji 400g di Oasis \u2014 butuh bus diperbaiki) = profit tertinggi.",
+      "Corn, Eggplant, Yam, Grape untuk bundle."
+     ]
+    },
+    {
+     "h": "\ud83c\udfaa Festival",
+     "items": [
+      "**Stardew Valley Fair (16):** Grange Display dinilai \u2192 **Star Token**; **Stardrop = 2.000 token** (satu dari 7 stardrop, +energy permanen)!",
+      "**Spirit's Eve (27, 10pm\u201311:50pm):** labirin hantu; **Golden Pumpkin 2.500g**."
+     ]
+    },
+    {
+     "h": "\ud83c\udf82 Ultah Penting",
+     "items": [
+      "**Penny (2)** \u2014 Melon/Poppy (tanaman fall!).",
+      "**Abigail (13)** \u2014 Amethyst dari mines.",
+      "Elliott (5), Jodi (11), Sandy (15), Marnie (18), Robin (21), George (24)."
+     ]
+    },
+    {
+     "h": "\ud83c\udfaf Target Fall",
+     "items": [
+      "**GREENHOUSE selesai** (Pantry) \u2014 tanam setahun penuh! Target #1 Year 1.",
+      "Upgrade Coop/Barn untuk Large Milk/Egg & Wool (Animal Bundle).",
+      "Tanam **pohon buah** (28 hari tumbuh; Apricot/Cherry = spring) untuk Artisan Bundle."
+     ]
+    }
+   ]
+  },
+  {
+   "name": "\u2744\ufe0f Winter",
+   "intro": "Tidak ada tanaman luar (kecuali Powdermelon baru 1.6). Fokus: mines, mancing, forage, selesaikan bundle, upgrade tools.",
+   "points": [
+    {
+     "h": "\ud83c\udfaa Festival",
+     "items": [
+      "**Festival of Ice (8):** lomba mancing es.",
+      "**SquidFest (12\u201313, baru 1.6).**",
+      "**Night Market (15\u201317, 5pm\u20132am):** mancing kapal selam, mermaid show, traveling merchant.",
+      "**Feast of the Winter Star (25):** tukar kado rahasia antar NPC."
+     ]
+    },
+    {
+     "h": "\ud83c\udf82 Ultah Penting",
+     "items": [
+      "**Linus (3)** \u2014 hasil forage (dia hampir selalu di tenda).",
+      "**Leah (23)** \u2014 Salad 220g di Saloon.",
+      "**Evelyn (20)** \u2014 Tulip (tanaman spring!) / Diamond.",
+      "Krobus (1), Caroline (7), Sebastian (10), Harvey (14), Wizard (17), Clint (26)."
+     ]
+    },
+    {
+     "h": "\ud83c\udfaf Target Winter",
+     "items": [
+      "Selesaikan sisa **Community Center bundle**.",
+      "**Upgrade tools** (Watering Can aman di-upgrade saat winter \u2014 tidak butuh siram!).",
+      "Push **Skull Cavern** untuk Iridium.",
+      "Siapkan **evaluasi Kakek: Spring 1 Year 3** \u2014 target 4 lilin (12 poin) \u2192 Statue of Perfection (iridium ore tiap hari)."
+     ]
+    }
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "name": "\ud83c\udf3e Farming",
+   "desc": "Naik dari menanam & memanen. Skill uang utama.",
+   "tips": [
+    "**Sprinkler** (siram otomatis tiap pagi): Lv2 biasa (4 petak) | **Lv6 Quality (8 petak!)** | Lv9 Iridium (24 petak).",
+    "Profesi Lv5 **Tiller \u2192 Lv10 Artisan (+40% harga artisan goods)** = pilihan uang terbaik.",
+    "**Keg** (Lv8) / **Preserves Jar** (Lv4): ubah panen jadi artisan goods, harga 2\u20133x lipat.",
+    "Basic Fertilizer (resep Lv1: 2 sap) \u2014 pasang SEBELUM tanam untuk panen GOLD (Quality Bundle)."
+   ]
+  },
+  {
+   "name": "\u26cf\ufe0f Mining",
+   "desc": "Naik dari memecah batu & ore di mines. Buka Spring 5.",
+   "tips": [
+    "**120 lantai**, **elevator tiap 5 lantai** (checkpoint). Zona: 1\u201339 copper \u2192 40\u201379 iron \u2192 80\u2013119 gold.",
+    "Hadiah peti tiap kelipatan 10: **lantai 100 = STARDROP** (+energy permanen!), **lantai 120 = SKULL KEY**.",
+    "**Skull Cavern:** butuh Skull Key + bus diperbaiki (Vault 42.500g). Tanpa elevator \u2014 sumber **Iridium**.",
+    "Hari hujan = hari mines. Hari luck bagus (TV) = push lantai."
+   ]
+  },
+  {
+   "name": "\ud83c\udfa3 Fishing",
+   "desc": "Naik dari memancing. Uang tercepat minggu pertama!",
+   "tips": [
+    "**Bamboo Pole** gratis (Willy, Spring 2) \u2192 **Fiberglass Rod 1.800g** (Fishing Lv2, bisa umpan) \u2192 **Iridium Rod 7.500g** (Lv6, umpan + tackle).",
+    "**Training Rod 25g** untuk latihan \u2014 mancing lebih mudah (ikan dasar saja).",
+    "Profesi **Fisher \u2192 Angler (+50% harga ikan)**.",
+    "Catfish hanya saat **hujan** (Spring/Fall) \u2014 penting untuk bundle!"
+   ]
+  },
+  {
+   "name": "\ud83c\udf32 Foraging",
+   "desc": "Naik dari memungut forage & menebang pohon.",
+   "tips": [
+    "**Bangun SILO dulu SEBELUM potong rumput** \u2014 rumput jadi hay cuma kalau silo ada.",
+    "**Tapper** di Oak/Maple/Pine (7\u20138 hari) \u2192 resin/syrup/tar untuk bundle & crafting.",
+    "Profesi **Gatherer \u2192 Botanist**: semua forage jadi kualitas iridium!",
+    "Salmonberry (Spring 15\u201328) & Blackberry (Fall 8\u201311) = energi gratis."
+   ]
+  },
+  {
+   "name": "\u2694\ufe0f Combat",
+   "desc": "Naik dari membunuh monster di mines.",
+   "tips": [
+    "**Adventurer's Guild:** terbuka setelah bunuh slime pertama (surat Marlon) \u2192 quest 10 slime \u2192 buka toko senjata.",
+    "Di Android: pedang **auto-attack**; tap musuh untuk secondary attack.",
+    "**Mummy** tidak bisa dibunuh senjata biasa \u2014 butuh bom!",
+    "Profesi **Fighter** untuk damage."
+   ]
+  },
+  {
+   "name": "\ud83d\udd28 Upgrade Tools",
+   "desc": "Di **Clint** (Blacksmith). Tiap tier: **2 hari** pengerjaan.",
+   "tips": [
+    "Harga: **Copper 2.000g \u2192 Steel 5.000g \u2192 Gold 10.000g \u2192 Iridium 25.000g** (+5 bar masing-masing).",
+    "**Prioritas komunitas: Pickaxe \u2192 Axe \u2192 Watering Can \u2192 Hoe \u2192 Trash Can.**",
+    "Upgrade **Watering Can saat ramalan hujan besok** atau di Winter (tidak bisa dipakai 2 hari!).",
+    "Axe/Pickaxe kuat = tebang tunggul besar & pecahkan batu besar di farm."
+   ]
+  }
+ ],
+ "calendar": [
+  {
+   "season": "\ud83c\udf37 Spring",
+   "days": [
+    {
+     "d": "4",
+     "b": "Kent (Y2)"
+    },
+    {
+     "d": "7",
+     "b": "Lewis"
+    },
+    {
+     "d": "10",
+     "b": "Vincent"
+    },
+    {
+     "d": "13",
+     "e": "\ud83e\udd5a Egg Festival",
+     "f": 1
+    },
+    {
+     "d": "14",
+     "b": "Haley"
+    },
+    {
+     "d": "15\u201317",
+     "e": "\ud83c\udfdc\ufe0f Desert Festival",
+     "f": 1
+    },
+    {
+     "d": "18",
+     "b": "Pam"
+    },
+    {
+     "d": "20",
+     "b": "Shane"
+    },
+    {
+     "d": "24",
+     "e": "\ud83c\udf38 Flower Dance",
+     "f": 1
+    },
+    {
+     "d": "26",
+     "b": "Pierre"
+    },
+    {
+     "d": "27",
+     "b": "Emily"
+    }
+   ]
+  },
+  {
+   "season": "\u2600\ufe0f Summer",
+   "days": [
+    {
+     "d": "4",
+     "b": "Jas"
+    },
+    {
+     "d": "8",
+     "b": "Gus"
+    },
+    {
+     "d": "10",
+     "b": "Maru"
+    },
+    {
+     "d": "11",
+     "e": "\ud83c\udf0a Luau",
+     "f": 1
+    },
+    {
+     "d": "13",
+     "b": "Alex"
+    },
+    {
+     "d": "17",
+     "b": "Sam"
+    },
+    {
+     "d": "19",
+     "b": "Demetrius"
+    },
+    {
+     "d": "20\u201321",
+     "e": "\ud83c\udfa3 Trout Derby",
+     "f": 1
+    },
+    {
+     "d": "22",
+     "b": "Dwarf"
+    },
+    {
+     "d": "24",
+     "b": "Willy"
+    },
+    {
+     "d": "26",
+     "b": "Leo"
+    },
+    {
+     "d": "28",
+     "e": "\ud83c\udf19 Moonlight Jellies",
+     "f": 1
+    }
+   ]
+  },
+  {
+   "season": "\ud83c\udf42 Fall",
+   "days": [
+    {
+     "d": "2",
+     "b": "Penny"
+    },
+    {
+     "d": "5",
+     "b": "Elliott"
+    },
+    {
+     "d": "11",
+     "b": "Jodi"
+    },
+    {
+     "d": "13",
+     "b": "Abigail"
+    },
+    {
+     "d": "15",
+     "b": "Sandy"
+    },
+    {
+     "d": "16",
+     "e": "\ud83c\udfa1 Stardew Fair",
+     "f": 1
+    },
+    {
+     "d": "18",
+     "b": "Marnie"
+    },
+    {
+     "d": "21",
+     "b": "Robin"
+    },
+    {
+     "d": "24",
+     "b": "George"
+    },
+    {
+     "d": "27",
+     "e": "\ud83d\udc7b Spirit's Eve",
+     "f": 1
+    }
+   ]
+  },
+  {
+   "season": "\u2744\ufe0f Winter",
+   "days": [
+    {
+     "d": "1",
+     "b": "Krobus"
+    },
+    {
+     "d": "3",
+     "b": "Linus"
+    },
+    {
+     "d": "7",
+     "b": "Caroline"
+    },
+    {
+     "d": "8",
+     "e": "\ud83e\uddca Festival of Ice",
+     "f": 1
+    },
+    {
+     "d": "10",
+     "b": "Sebastian"
+    },
+    {
+     "d": "12\u201313",
+     "e": "\ud83e\udd91 SquidFest",
+     "f": 1
+    },
+    {
+     "d": "14",
+     "b": "Harvey"
+    },
+    {
+     "d": "15\u201317",
+     "e": "\ud83c\udf03 Night Market",
+     "f": 1
+    },
+    {
+     "d": "17",
+     "b": "Wizard"
+    },
+    {
+     "d": "20",
+     "b": "Evelyn"
+    },
+    {
+     "d": "23",
+     "b": "Leah"
+    },
+    {
+     "d": "25",
+     "e": "\ud83c\udf81 Winter Star",
+     "f": 1
+    },
+    {
+     "d": "26",
+     "b": "Clint"
+    }
+   ]
+  }
+ ],
+ "goals": [
+  "\u2705 **Greenhouse selesai** (Fall/Winter) \u2014 \ud83c\udfaf target #1: tanam setahun penuh!",
+  "\u2705 **Mines lantai 120** (Skull Key) + **Vault 42.500g** selesai (bus ke Desert).",
+  "**Backpack Deluxe** (36 slot, 10.000g); tools minimal **Copper/Steel** (Pickaxe & Axe).",
+  "**Coop + Barn** (+upgrade untuk Large Milk/Egg & Wool).",
+  "**Farming Lv6+** (Quality Sprinkler), skill lain Lv5+.",
+  "Beberapa NPC **4\u20138 hearts**; ikut **semua festival**.",
+  "\u26a0\ufe0f **Evaluasi Kakek: Spring 1 Year 3** \u2014 target 4 lilin (12 poin) \u2192 **Statue of Perfection** (iridium ore tiap hari).",
+  "\ud83d\udc8d **Menikah Year 1 = opsional/ambisius:** 8 hearts + Bouquet 200g + upgrade rumah 10.000g+450 wood + Mermaid's Pendant 5.000g (Old Mariner, pantai saat hujan)."
+ ],
+ "cc": "Dua jalur cerita utama. **Community Center** (direkomendasikan pemula): kumpulkan **bundle** (paket item) untuk Junimo dan dapat reward perbaikan fasilitas \u2014 terbuka lewat cutscene \"Rat Problem\" (masuk kota dari Bus Stop setelah Spring 5, lalu kunjungi Wizard). Urutan realistis: **Spring Foraging** (minggu 1) \u2192 **Spring Crops** (H28) \u2192 **Fish** (cicil sejak punya pancing) \u2192 **Summer/Fall Crops** \u2192 **Quality Crops** (5 GOLD parsnip/melon/pumpkin, pakai fertilizer SEBELUM tanam) \u2192 **Animal** (Fall\u2013Winter) \u2192 **Artisan** \u2192 **Boiler Room** (dari mines) \u2192 **Vault** terakhir (42.500g). Reward kunci: **GREENHOUSE** (Pantry), **Minecart** fast travel (Boiler Room), **bus ke Desert** (Vault). Jalur alternatif **JojaMart**: beli membership 5.000g lalu bayar tiap proyek dengan uang \u2014 tanpa kumpulin item, tapi mahal.",
+ "meta": {
+  "sources": "Stardew Valley Wiki \u2022 Fandom \u2022 Eurogamer \u2022 GameSpot \u2022 PC Gamer \u2022 Steam guides \u2022 Reddit",
+  "updated": "2026-10-01"
+ }
+}

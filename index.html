@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Stardew Valley Walkthrough — Panduan Hari per Hari</title>
+<meta name="theme-color" content="#2d6a4f">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0e1a14;--bg2:#14261c;--card:#1b2f23;--acc:#80ed99;--acc2:#ffd166;--warn:#ff6b6b;--txt:#eef7ee;--mut:#9fb8a8;--line:#2a4436}
+body{font-family:-apple-system,system-ui,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--txt);padding-bottom:86px;line-height:1.55}
+header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#1b4332,#2d6a4f);padding:14px 16px;border-bottom:2px solid var(--acc)}
+header h1{font-size:18px}header p{font-size:12px;color:var(--mut)}
+main{max-width:640px;margin:0 auto;padding:12px 12px 24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0}
+.card h2{font-size:16px;margin-bottom:8px;color:var(--acc)}
+.card h3{font-size:14px;margin:12px 0 6px;color:var(--acc2)}
+.card p,.card li{font-size:14px;margin-bottom:6px}
+.card ul{padding-left:18px}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;margin:2px 4px 2px 0}
+.t-must{background:#2d6a4f;color:#fff}.t-time{background:#3a2f0b;color:#ffd166}.t-warn{background:#4a1515;color:#ff8a8a}.t-info{background:#123;color:#7ec8ff}
+.day-head{display:flex;align-items:center;gap:8px;margin:14px 0 6px}
+.day-head .dnum{background:var(--acc);color:#06210f;font-weight:800;border-radius:10px;min-width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.day-head h3{margin:0;font-size:15px}
+.warnbox{background:#3d1a1a;border:1px solid #7a2e2e;border-radius:10px;padding:10px 12px;margin:10px 0;font-size:13px}
+.goalbox{background:#123524;border:1px solid #2d6a4f;border-radius:10px;padding:10px 12px;margin:10px 0;font-size:13px}
+nav{position:fixed;bottom:0;left:0;right:0;background:#0a120d;border-top:1px solid var(--line);display:flex;z-index:20;padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;background:none;border:none;color:var(--mut);font-size:10px;padding:10px 2px 8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+nav button .ic{font-size:20px}nav button.on{color:var(--acc);font-weight:700}
+.tab{display:none}.tab.on{display:block}
+details{margin:6px 0}summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--acc2)}
+.spoiler{background:#000;border:1px dashed var(--warn);border-radius:10px;padding:14px;margin:10px 0;text-align:center}
+.spoiler button{background:var(--warn);border:none;color:#fff;font-weight:700;padding:10px 18px;border-radius:8px;font-size:14px;cursor:pointer}
+.spoiler .hidden{display:none}.spoiler .revealed{text-align:left}
+.cal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.cal-cell{background:#0f1d15;border:1px solid var(--line);border-radius:8px;padding:6px;font-size:11px;text-align:center}
+.cal-cell b{display:block;color:var(--acc2);font-size:12px}
+.cal-cell .fest{color:var(--warn);font-weight:700}
+footer{text-align:center;font-size:11px;color:var(--mut);padding:18px 0}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<header><h1>🌱 Stardew Walkthrough</h1><p>Panduan hari per hari • Bahasa Indonesia • Android</p></header>
+<main id="app"><p style="text-align:center;color:var(--mut);padding:40px 0">Memuat panduan…</p></main>
+<nav id="nav"></nav>
+<footer>Fan guide. Stardew Valley © ConcernedApe.</footer>
+<script>
+const TABS=[["home","🏠","Mulai"],["days","📅","Hari"],["season","🌸","Musim"],["skill","🎒","Skill"],["cal","📆","Kalender"],["goal","🏁","Goals"]];
+let G=null,cur="home";
+function tag(t){const m={must:["t-must","⭐ WAJIB"],time:["t-time","⏱ WAKTU"],warn:["t-warn","⚠️ PERHATIAN"],info:["t-info","ℹ️ INFO"]}[t[0]]||["t-info",t[1]];return `<span class="tag ${m[0]}">${m[1]}</span>`}
+function md(s){return (s||"").replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")}
+function renderDays(){return G.days.map(d=>`<div class="card"><div class="day-head"><div class="dnum">${d.n}</div><h3>${d.title}</h3></div>${d.goal?`<div class="goalbox">🎯 ${md(d.goal)}</div>`:""}${d.steps.map(s=>`<p>${(s.tags||[]).map(tag).join("")}<br>${md(s.text)}</p>`).join("")}${d.warning?`<div class="warnbox">⚠️ ${md(d.warning)}</div>`:""}</div>`).join("")}
+function renderSeason(){return G.seasons.map(s=>`<div class="card"><h2>${s.name}</h2><p style="color:var(--mut)">${md(s.intro)}</p>${s.points.map(p=>`<h3>${p.h}</h3><ul>${p.items.map(i=>`<li>${md(i)}</li>`).join("")}</ul>`).join("")}</div>`).join("")}
+function renderSkill(){return G.skills.map(s=>`<div class="card"><h2>${s.name}</h2><p>${md(s.desc)}</p><ul>${s.tips.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div>`).join("")}
+function renderCal(){return G.calendar.map(c=>`<div class="card"><h2>${c.season}</h2><div class="cal-grid">${c.days.map(d=>`<div class="cal-cell"><b>${d.d}</b>${d.e?`<span class="${d.f?"fest":""}">${d.e}</span>`:""}${d.b?`<br>🎂 ${d.b}`:""}</div>`).join("")}</div></div>`).join("")}
+function renderGoal(){return `<div class="card"><h2>🎯 Target Akhir Tahun 1</h2><ul>${G.goals.map(g=>`<li>${md(g)}</li>`).join("")}</ul></div><div class="card"><h2>🏛️ Community Center vs Joja</h2><p>${md(G.cc)}</p></div>`}
+function render(){const a=document.getElementById("app");
+a.innerHTML=cur==="home"?`<div class="card"><h2>🌱 Tentang Panduan Ini</h2>${G.about.map(p=>`<p>${md(p)}</p>`).join("")}</div><div class="card"><h2>📱 Tips Android</h2><ul>${G.android.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div><div class="card"><h2>⚡ 10 Tips Kilat Pemula</h2><ul>${G.quick.map(t=>`<li>${md(t)}</li>`).join("")}</ul></div>`
+:cur==="days"?`<div class="card"><h2>📅 Spring Tahun 1 — Hari per Hari</h2><p style="color:var(--mut)">Ikuti urutan ini untuk start paling efisien. Hari 1–28.</p></div>`+renderDays()
+:cur==="season"?renderSeason():cur==="skill"?renderSkill():cur==="cal"?renderCal():renderGoal();
+document.querySelectorAll("#nav button").forEach(b=>b.classList.toggle("on",b.dataset.t===cur));window.scrollTo(0,0)}
+async function init(){const n=document.getElementById("nav");
+n.innerHTML=TABS.map(t=>`<button data-t="${t[0]}" class="${t[0]==="home"?"on":""}"><span class="ic">${t[1]}</span>${t[2]}</button>`).join("");
+n.querySelectorAll("button").forEach(b=>b.onclick=()=>{cur=b.dataset.t;render()});
+try{G=await(await fetch("data/guide.json")).json();}catch(e){document.getElementById("app").innerHTML="<p style='text-align:center;padding:40px'>Gagal memuat data.</p>";return}
+render();if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{})}
+init();
+</script>
+</body>
+</html>
