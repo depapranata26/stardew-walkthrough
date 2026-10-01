@@ -5195,5 +5195,195 @@
   "\ud83c\udfdb\ufe0f Community Center selesai (1) + hadiri ceremony (2). \ud83d\udd11 Skull Key (1) + Rusty Key (1).",
   "Hadiah 4 lilin: **Statue of Perfection** \u2014 **2\u20138 iridium ore per hari**!",
   "Kurang poin? **Taruh Diamond di shrine kapan saja \u2192 evaluasi ulang.**"
+ ],
+ "unlocks": [
+  {
+   "e": "\u26cf\ufe0f",
+   "name": "The Mines (lantai 1-120)",
+   "how": "Terbuka otomatis **Spring 5 Year 1**.",
+   "desc": "Elevator tiap 5 lantai. Lantai 20: Steel Smallsword. Lantai 90: Obsidian Edge. Lantai 120: **Skull Key**. Bawa makanan & bom."
+  },
+  {
+   "e": "\ud83e\ude93",
+   "name": "Secret Woods",
+   "how": "**Steel Axe** - tebang large log di pintu masuk (Cindersap Forest barat laut).",
+   "desc": "~12 Hardwood respawn tiap hari. Old Master Cannoli: kasih **Sweet Gem Berry** = **Stardrop**. Woodskip & slime langka."
+  },
+  {
+   "e": "\ud83d\udd73\ufe0f",
+   "name": "Sewers",
+   "how": "**Rusty Key** dari Gunther (donasi **60 item** ke museum).",
+   "desc": "Toko **Krobus** (Iridium Sprinkler Jumat 10.000g, Stardrop, resep langka). Jalan ke Mutant Bug Lair. Krobus bisa jadi roommate (10 hearts + Void Ghost Pendant 200 Void Essence)."
+  },
+  {
+   "e": "\ud83d\udc1b",
+   "name": "Mutant Bug Lair",
+   "how": "Lewat **Sewers** (pipa di barat laut).",
+   "desc": "Sarang serangga mutan - sumber fiber & bug meat melimpah. Ada cutscene misterius."
+  },
+  {
+   "e": "\ud83e\uddd9",
+   "name": "Witch's Swamp",
+   "how": "Quest **Dark Talisman** dari Wizard (setelah Community Center selesai).",
+   "desc": "Pancing **Void Salmon**, ambil Magic Ink untuk staff. Henchman menjaga gua."
+  },
+  {
+   "e": "\ud83c\udfdc\ufe0f",
+   "name": "Calico Desert",
+   "how": "Perbaiki **bus** - Vault bundle **42.500g** (atau Joja 40.000g).",
+   "desc": "**Oasis** (toko Sandy: bibit langka), **Skull Cavern**, **Desert Trader** (tukar-tukar item), kolam pasir."
+  },
+  {
+   "e": "\ud83d\udc80",
+   "name": "Skull Cavern",
+   "how": "**Skull Key** (lantai 120 Mines) - pintu di gurun utara.",
+   "desc": "Dungeon tanpa dasar - **iridium** terbanyak. Bawa **Staircase (99 stone)** / Jade (tukar ke Desert Trader tiap Minggu), bom, makanan heal, buff luck."
+  },
+  {
+   "e": "\ud83c\udfb0",
+   "name": "Casino",
+   "how": "Quest **The Mysterious Qi** (kotak misterius di terowongan + peron kereta) = **Club Card**.",
+   "desc": "Pintu belakang Oasis. Tukar gold = **Qi Coin**. Blackjack, slot, Calico Spin. Hadiah: topi & furnitur langka."
+  },
+  {
+   "e": "\ud83c\udfac",
+   "name": "Movie Theater",
+   "how": "Selesaikan **Missing Bundle** (bekas JojaMart, setelah CC selesai).",
+   "desc": "Nonton film bareng warga (+friendship besar kalau film & snack disukai). Concession stand, Crane Game (hadiah boneka)."
+  },
+  {
+   "e": "\ud83c\udf31",
+   "name": "Greenhouse",
+   "how": "Selesaikan **Pantry bundles** (Community Center).",
+   "desc": "Tanam **bebas musim** selamanya - tapi **hujan tidak menyiram**, tetap butuh sprinkler! Isi dengan Ancient Fruit + Keg."
+  },
+  {
+   "e": "\ud83c\udfdd\ufe0f",
+   "name": "Ginger Island",
+   "how": "Perahu Willy: **200 Hardwood + 5 Iridium Bar + 5 Battery Pack** (lihat tab Year 2).",
+   "desc": "Farm kedua bebas musim, **Volcano Dungeon** (10 lantai), Golden Walnut, Island Trader, resort, puzzle fosil & mermaid."
+  },
+  {
+   "e": "\ud83e\udd5c",
+   "name": "Qi's Walnut Room",
+   "how": "Kumpulkan **100 Golden Walnut** di Ginger Island.",
+   "desc": "Misi endgame Mr. Qi + papan **Qi Quest** mingguan (hadiah Qi Gem)."
+  },
+  {
+   "e": "\ud83c\udfc6",
+   "name": "Mastery Cave",
+   "how": "**Semua 5 skill level 10** (Cindersap Forest).",
+   "desc": "Sistem **Mastery** (1.6): exp berlebih jadi poin untuk unlock mastery tiap skill."
+  },
+  {
+   "e": "\ud83c\udfd4\ufe0f",
+   "name": "The Summit",
+   "how": "Capai **Perfection 100%**.",
+   "desc": "Puncak gunung - cutscene spesial akhir permainan. Target jangka panjang sejati."
+  },
+  {
+   "e": "\u2622\ufe0f",
+   "name": "Dangerous Mines",
+   "how": "Quest **Danger In The Deep** dari Qi (Walnut Room).",
+   "desc": "Mines jadi versi berbahaya - monster kuat, **Radioactive Ore** (bahan Hyper Speed-Gro & cincin top). Bisa dimatikan di shrine lantai 120."
+  },
+  {
+   "e": "\ud83c\udfe0",
+   "name": "Cellar (ruang bawah tanah)",
+   "how": "Upgrade rumah tahap 3 - **100.000g** (Robin).",
+   "desc": "**Cask**: aging wine/cheese/beer sampai kualitas iridium (Ancient Fruit Wine iridium = 4.620g!)."
+  },
+  {
+   "e": "\ud83d\udd79\ufe0f",
+   "name": "Arcade (Saloon)",
+   "how": "Mesin di pojok Stardrop Saloon - gratis.",
+   "desc": "**Journey of the Prairie King** (tamatkan = achievement + item) & **Junimo Kart** (skor tinggi = hadiah)."
+  }
+ ],
+ "festivals": [
+  {
+   "e": "\ud83e\udd5a",
+   "name": "Egg Festival",
+   "when": "Spring 13, Town Square 9am-2pm.",
+   "win": "**Egg Hunt: kumpulkan 9 telur dalam 50 detik** (solo) - kalau kurang, Abigail yang menang.",
+   "tips": "Rute: mulai ke utara, keliling rumah Jodi/Sam, sudut barat daya, rumah Haley/Emily, manor Lewis, jembatan pantai. Hadiah: **Straw Hat** (pertama), **Prize Ticket** (berikutnya). Selesaikan belanja SEBELUM bicara ke Lewis!"
+  },
+  {
+   "e": "\ud83c\udf38",
+   "name": "Flower Dance",
+   "when": "Spring 24, Cindersap Forest 9am-2pm.",
+   "win": "**Tidak ada kompetisi** - dansa butuh **4 hearts** dengan seseorang (ajak sebelum festival).",
+   "tips": "**BELI DULU sebelum dansa: Tub o' Flowers Recipe (1.000g)** - bahan perfection; **Rarecrow #5 (2.500g)**. Setelah dansa, hari langsung selesai."
+  },
+  {
+   "e": "\ud83c\udfdc\ufe0f",
+   "name": "Desert Festival",
+   "when": "Spring 15-17, Calico Desert (butuh bus!).",
+   "win": "Kumpulkan **Calico Eggs** (mata uang festival): **taruhan balapan** (gratis, menang = 20 telur - bisa curang via Suspicious Man 1 telur), **kuis Scholar** (50 telur, 1x/tahun - jawaban: Calico Desert / Wednesdays / 16000g / 8), quest Willy & Adventurer's Guild, mining node telur.",
+   "tips": "Gratis: **Chef** (buff makanan, pilih 2 bahan), **Emily & Sandy** (ganti outfit 1x/hari), **kaktus dekorasi**. Telur sisa bisa dipakai tahun depan."
+  },
+  {
+   "e": "\ud83c\udf0a",
+   "name": "Luau",
+   "when": "Summer 11, pantai 9am-2pm.",
+   "win": "**Potluck soup: masukkan item GOLD/IRIDIUM** (atau masakan mahal) = Gubernur suka = **+120 friendship SEMUA warga**.",
+   "tips": "Item jelek (misal Joja Cola) = **minus friendship massal**! Opsi aman Y1: Melon gold, Large Milk gold. Jangan masukkan item sebelum yakin."
+  },
+  {
+   "e": "\ud83c\udfa3",
+   "name": "Trout Derby",
+   "when": "Summer 20-21, sungai Cindersap 6:10am-2am.",
+   "win": "Tangkap **Rainbow Trout** = **33% Golden Tag**. Kumpulkan tag = tukar hadiah (termasuk **Quality Sprinkler**!).",
+   "tips": "Waktu tetap berjalan & toko tidak tutup. Bawa umpan & tackle bagus."
+  },
+  {
+   "e": "\ud83c\udf19",
+   "name": "Moonlight Jellies",
+   "when": "Summer 28, pantai 10pm-12am.",
+   "win": "**Tidak ada cara menang** - murni sinematik. Bicara ke Lewis untuk mulai.",
+   "tips": "Cari ubur-ubur hijau langka. Bawa pasangan/kandidat nikah untuk dialog manis."
+  },
+  {
+   "e": "\ud83c\udfa1",
+   "name": "Stardew Fair",
+   "when": "Fall 16, Pelican Town 9am-3pm.",
+   "win": "**Grange Display: 9 item, skor 90+ = juara 1 (1.000 Star Token).** Skor dari harga jual + kualitas + **variasi 6 kategori**.",
+   "tips": "Token prioritas: **Stardrop (2.000)** - satu dari 7 di game! Farming token: minigame mancing & slingshot. Tips display Y1: ikan gold/iridium, pumpkin gold, mineral, mayo/cheese, masakan."
+  },
+  {
+   "e": "\ud83d\udc7b",
+   "name": "Spirit's Eve",
+   "when": "Fall 27, Pelican Town 10pm-11:50pm.",
+   "win": "**Tidak ada kompetisi** - susuri **labirin hantu** sampai dapat **Golden Pumpkin (2.500g)**.",
+   "tips": "Simpan 1 Golden Pumpkin untuk Grange Display tahun depan. Ada jalan pintas rahasia di labirin (semak bisa dilewati)."
+  },
+  {
+   "e": "\ud83e\uddca",
+   "name": "Festival of Ice",
+   "when": "Winter 8, Cindersap Forest 9am-2pm.",
+   "win": "**Lomba mancing es: tangkap >=5 ikan** dalam waktu lomba = menang!",
+   "tips": "Hadiah: **Barbed Hook + Dressed Spinner + Magnet + Sailor's Cap**. Pakai **Trap Bobber** biar gampang. Toko: Rarecrow 5.000g."
+  },
+  {
+   "e": "\ud83e\udd91",
+   "name": "SquidFest",
+   "when": "Winter 12-13, pantai 6:10am-2am.",
+   "win": "Tangkap **Squid** sebanyak mungkin - tier harian (H1: 1/3/5/8, H2: 2/5/7/10). **Klaim hadiah di stan nelayan HARI YANG SAMA** - counter reset!",
+   "tips": "Siapkan Trap Bobber + makanan buff mancing (Dish O' The Sea). Squid cuma muncul siang-sore."
+  },
+  {
+   "e": "\ud83c\udf03",
+   "name": "Night Market",
+   "when": "Winter 15-17, pantai 5pm-2am.",
+   "win": "Bukan kompetisi - tapi ini yang wajib: **kapal selam 1.000g** (Midnight Squid, Spook Fish, **Blobfish** + peluang Pearl), **Mermaid Show: kerang 1-5-4-2-3 = Pearl 2.500g** (sekali per save!), **Traveling Cart stok baru tiap hari**.",
+   "tips": "Naik kapal selam jam 5-11pm. Cek cart tiap malam: Rare Seed, Coffee Bean, Ancient Seed."
+  },
+  {
+   "e": "\ud83c\udf81",
+   "name": "Feast of the Winter Star",
+   "when": "Winter 25, Pelican Town 9am-2pm.",
+   "win": "**Tukar kado rahasia** - beri kado **terbaik** (Pearl/Prismatic Shard/barang favorit) untuk respons maksimal.",
+   "tips": "Lewis kirim surat nama penerima di **Winter 18** - siapkan dari jauh hari. **Tea Set cuma didapat dari sini**."
+  }
  ]
 }
